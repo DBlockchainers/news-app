@@ -1,0 +1,61 @@
+DSFi Dashboard Pages:
+	- Dashboard: 
+		Show referral URL somewhere, basic profile info like name, username, referral url, referred count
+		Cards: Total Investment, Daily Return, Total Return, Referral Bonus
+		Graphs: Daily Return, Monthly Return, 
+		Pie chart: Investment Slabs ex, Slab 1: 40% Slab 2: 25%, Slab 3: 35% Slab: 0%
+	- Investment: 
+		Section Info: 
+			Slab, Min. Investment, Max Investment, Simple Return, Staking Compounded Return
+		Form: 
+			Select Slab 1/2/3/4:
+			Enter amount in multiple of 100x
+			Button Submit
+
+			Addition: Some field and chart to show estimated return at the end of matuarity.
+	- My Investments:
+		Show all investment, amount, return, label (staked on not), 
+		Option to Stake/Lock investment if not done already
+
+
+	- Profile View/Edit
+		- Fields:
+			first name*, last name, email*, isd code*, phone*, username*, country*, timezone*, images/avatar
+			Show referral URL in View
+			Show Wallet Address
+
+	- Incomes:
+		- All incomes: balances (only total balance from returns for different investment slab)
+		- Slab 1: Daily Return in Table and One Graph
+		- Slab 2: Daily Return in Table and One Graph
+		- Slab 3: Daily Return in Table and One Graph
+		- Slab 4: Daily Return in Table and One Graph
+
+	- Withdrawal:
+		Withdraw: 
+			Select Investment/s, Enter Amount, Submit button
+
+		History: withdrawal history in table
+		Addition some Warning section with some text only
+
+	- Referred members:
+		- Name, Email, Phone, Investment Amount, Referral Code, Wallet Address, Referral Bonus, Additional Bonus
+
+	- News 
+		- Show list of news, announcement, update by company
+		- Full view on news
+
+	- Support:
+		Raise a ticket
+			Field: Conciern Title, Description your issues, Select Issues type (Bug, Invesment, Returns, Withdrawal, Query)
+		Previous Ticket History with status
+
+	- Settings:
+		Change Password
+		Notification setting 
+		Change Email/Username
+
+	- Logout
+
+
+

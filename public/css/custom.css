@@ -1,0 +1,137 @@
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+    display: none !important;
+}
+
+header {
+    padding-top: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.hero-main {
+    position: relative;
+    background-image: url("../img/banner-5.jpg")
+}
+
+.hero-bg-01 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.hero-bg-02 {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    z-index: 0;
+}
+
+#hero-h1-inner {
+    color: #FFC727;
+    font-size: 38px;
+    display: block;
+}
+
+.bg-black {
+    background-color: #000000 !important;
+}
+
+.bg-plan {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.faq-section .section-heading {
+    color: #FFC727;
+    z-index: 1;
+}
+
+.faq-section .sub-txt p {
+    color: #fff !important;
+    margin-bottom: 5px;
+}
+
+.plan-tab .nav {
+    background-color: #3e3e3e;
+    text-align: center;
+}
+
+.plan-tab .nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 15px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.plan-tab .nav .nav-link:hover,
+.plan-tab .nav .nav-link.active {
+    background-color: #FFC727;
+    color: #222 !important;
+}
+
+.plan-tab .tab-plan-main {
+    background: #3E3E3E;
+    border: 2px solid rgba(255, 199, 39, 0.25);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 5px;
+}
+
+.plan-tab .tab-plan-main h3 {
+    font-size: 18px;
+    color: #FFC727;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.plan-tab .tab-plan-main p {
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.login-section {
+    background-color: #000;
+    z-index: 2;
+    padding: 3rem 0;
+    margin-bottom: 3.5rem;
+}
+
+.login-section img {
+    background-color: #000;
+    padding: 5px;
+}
+
+.login-section h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.login-section p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.login-section form .form-control {
+    background-color: #222;
+    color: #fff;
+}

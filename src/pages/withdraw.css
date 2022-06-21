@@ -1,0 +1,163 @@
+.sa-withdraw{
+  background: #2C2C2C;
+border-radius: 10px;
+/* margin: 0px 30px 0px 30px; */
+padding-bottom: 15px !important;
+}
+
+@media screen and (max-width: 575px){
+  .sa-new{
+  display: flex !important;
+  flex-direction: column !important;
+padding-bottom: 10px !important;
+  
+  }
+}
+
+.sa-withdraw img{
+  
+    width: 60%;
+  
+}
+
+/*.sa-inwithdraw{
+width: 520px !important;
+height: 296px;
+margin-left: 427px !important;
+
+
+background: #323232;
+border-radius: 20px;
+} */
+
+.sa-withdrawheading{
+font-family: Poppins;
+font-style: normal;
+font-weight:  600;
+font-size: 30px;
+line-height: 60px;
+text-align: center;
+/* identical to box height */
+
+
+
+}
+
+.sa-withdrawsub{
+   font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.sa-withdraw_input{
+
+background: #1C1C1C !important;
+border: 1.5px solid #FFC727 !important;
+box-sizing: border-box;
+border-radius: 10px !important;}
+
+.sa-withdraw_btn{
+   
+
+margin-top: 15px;
+color: black !important;
+
+/* 2 */
+
+background: linear-gradient(271.95deg, #FFD96C 0%, #DCA300 100%);
+font-weight: 600 !important;
+
+}
+
+.sa-withdraw_btn2{
+   
+
+
+  color: black !important;
+  font-weight: 600 !important;
+  
+  /* 2 */
+  
+  background: linear-gradient(271.95deg, #FFD96C 0%, #DCA300 100%);
+  
+  }
+
+.sa-text1{
+ 
+   
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+
+color: #FFFFFF;
+}
+
+.sa-text2{
+
+
+margin-left: 50px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+
+color: #FFFFFF;
+}
+
+@media screen and (max-width: 575px) {
+    .sa-new {
+      flex-direction: column !important;
+    }
+   
+  }
+
+
+  .form-inn{
+    /* padding: 0px 60px 0px 60px; */
+  }
+
+  .sa-textOnInput {
+    position: relative;
+
+    margin-top: 5px !important;
+}
+.sa-textOnInput label {
+    color: white;
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    padding: 2px;
+    z-index: 1;
+}
+
+.sa-textOnInput label:after {
+    content: ' ';
+    background: #323232;
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
+
+
+
